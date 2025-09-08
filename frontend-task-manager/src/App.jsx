@@ -2,6 +2,7 @@ import {useState} from 'react'
 import './App.css'
 import Login from './components/Login'
 import TaskManager from './components/TaskManager'
+import UpForm from './components/UpForm'
 
 function App() {
  const[user,setUser]=useState(null)
@@ -15,6 +16,7 @@ function App() {
         ):(
         <TaskManager/>
         )}
+         <UpForm/>
     </div>
    
   )
